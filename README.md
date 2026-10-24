@@ -13,8 +13,9 @@ KVideo（苹果CMS V10 采集源播放器）的订阅源仓库，种子来自：
 
 | 文件 | 内容 | KVideo 订阅地址 |
 | :--- | :--- | :--- |
-| [full.json](full.json) | 全量（含成人组），失效源 `enabled:false` | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/full.json` |
-| [lite.json](lite.json) | 仅普通组且当前可用 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/lite.json` |
+| [full.json](full.json) | 全量（含成人组），失效源 `enabled:false` 保留死因，复活自动重启 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/full.json` |
+| [clean.json](clean.json) | 只含启用中的源（含成人组），不带任何禁用条目 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/clean.json` |
+| [lite.json](lite.json) | 仅普通组且当前可用，纯净版 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/lite.json` |
 
 在 KVideo 设置里添加订阅源即可，格式同 EW订阅源。
 

@@ -9,6 +9,7 @@ const ROOT = __dirname;
 const SOURCES_PATH = path.join(ROOT, "sources.json");
 const HISTORY_PATH = path.join(ROOT, "history.json");
 const FULL_PATH = path.join(ROOT, "full.json");
+const CLEAN_PATH = path.join(ROOT, "clean.json");
 const LITE_PATH = path.join(ROOT, "lite.json");
 const REPORT_PATH = path.join(ROOT, "report.md");
 
@@ -206,6 +207,9 @@ async function runPool(items, worker) {
   // lite.json: 仅普通组且当前可用
   const lite = full.filter((s) => s.group === "normal" && s.enabled);
   fs.writeFileSync(LITE_PATH, JSON.stringify(lite, null, 2));
+
+  // clean.json: 只含启用中的源(两个组), 不带任何禁用条目
+  fs.writeFileSync(CLEAN_PATH, JSON.stringify(full.filter((s) => s.enabled), null, 2));
 
   fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2));
 

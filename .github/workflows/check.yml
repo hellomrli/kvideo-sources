@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add full.json lite.json report.md history.json
+          git add full.json clean.json lite.json report.md history.json
           git commit -m "chore: 自动巡检 [$(date +'%Y-%m-%d %H:%M')]" || echo "No changes"
           git push
