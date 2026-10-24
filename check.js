@@ -152,12 +152,21 @@ async function runPool(items, worker) {
     else priority = 100 + streakFail;
 
     const mirrorGroup = mirrors.find((ids) => ids.includes(item.id));
+    // 粘性启用: 采集站搜索接口偶发抽风, 单日失败不立即踢出订阅
+    // 规则: 当日通过, 或 7 天内仍有成功且连续失败 < 3 天
+    const recent = history
+      .slice(-7)
+      .map((h) => h.results.find((x) => x.api === item.baseUrl))
+      .filter(Boolean);
+    const ok7 = recent.filter((r) => r.ok).length;
+    const sticky = !item.manual && (item.pass || (ok7 >= 1 && streakFail < 3));
     return {
       ...item,
       icon,
       rate: rate.toFixed(1) + "%",
       trend,
       priority,
+      sticky,
       mirror: mirrorGroup ? mirrorGroup.filter((i) => i !== item.id) : [],
     };
   });
@@ -183,9 +192,11 @@ async function runPool(items, worker) {
         name: s.name,
         baseUrl: s.baseUrl,
         group: s.group || "normal",
-        enabled: s.icon === "✅",
+        enabled: s.sticky,
         priority: s.priority,
-        ...(s.icon !== "✅" ? { _comment: s.reason } : {}),
+        ...(s.icon !== "✅"
+          ? { _comment: s.sticky ? `${s.reason} (近期仍有成功,保留观察)` : s.reason }
+          : {}),
         ...(alts.length ? { mirrors: s.mirror, mirrorUrls: alts } : {}),
       };
     })
@@ -211,7 +222,7 @@ async function runPool(items, worker) {
   md += `\n### 🪞 同库镜像组 (total 相同, 大概率同一后端)\n\n订阅文件 (full.json / lite.json) 中每组只保留最优一条线路, 备用域名见该线路的 \`mirrorUrls\` 字段。\n`;
   if (mirrors.length === 0) md += `- 无\n`;
   for (const ids of mirrors) md += `- ${ids.join(" / ")}\n`;
-  md += `\n### 💡 状态说明\n- ✅ 可用(连通+搜索双通过) | ❌ 今日失联 | 🚨 连断3天+ | 🚫 手动禁用\n- 优先级: 1=30天全勤 5=成功率≥90% 10=其他可用 100+=失联(数字为连续失败天数)\n- 巡检环境: GitHub Actions (海外视角, 国内直连可用性可能不同)\n`;
+  md += `\n### 💡 状态说明\n- ✅ 可用(连通+搜索双通过) | ❌ 今日失联 | 🚨 连断3天+ | 🚫 手动禁用\n- 订阅保留规则(粘性): 当日通过, 或 7 天内仍有成功且未连断 3 天; 连断 3 天才真正移出订阅\n- 优先级: 1=30天全勤 5=成功率≥90% 10=其他可用 100+=失联(数字为连续失败天数)\n- 巡检环境: GitHub Actions (海外视角, 国内直连可用性可能不同)\n`;
   fs.writeFileSync(REPORT_PATH, md);
 
   const pass = stats.filter((s) => s.icon === "✅").length;
