@@ -1,0 +1,37 @@
+name: Daily Source Check
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # UTC 18:00 = 北京时间凌晨 2 点
+  push:
+    paths:
+      - "sources.json"
+  workflow_dispatch:
+    inputs:
+      keyword:
+        description: "搜索关键字"
+        default: "斗罗大陆"
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run check
+        run: node check.js "${{ github.event.inputs.keyword || '斗罗大陆' }}"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add full.json lite.json report.md history.json
+          git commit -m "chore: 自动巡检 [$(date +'%Y-%m-%d %H:%M')]" || echo "No changes"
+          git push
