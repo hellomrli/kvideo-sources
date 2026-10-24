@@ -32,7 +32,7 @@
       },
       {
         "api": "https://api.wujinapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://www.mdzyapi.com/api.php/provide/vod",
@@ -152,7 +152,7 @@
       },
       {
         "api": "https://api.wujinapi.cc/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://cj.yayazy.net/api.php/provide/vod",
@@ -164,7 +164,7 @@
       },
       {
         "api": "https://api.wujinapi.net/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://api.wwzy.tv/api.php/provide/vod",
@@ -316,7 +316,7 @@
       },
       {
         "api": "https://iqiyizyapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://caiji.dbzy5.com/api.php/provide/vod",
