@@ -108,6 +108,20 @@
     "priority": 1
   },
   {
+    "id": "hongniu",
+    "name": "红牛资源",
+    "baseUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1,
+    "mirrors": [
+      "hongniu3"
+    ],
+    "mirrorUrls": [
+      "https://www.hongniuzy3.com/api.php/provide/vod"
+    ]
+  },
+  {
     "id": "ikun",
     "name": "iKun资源",
     "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
@@ -116,18 +130,12 @@
     "priority": 1
   },
   {
-    "id": "xinlang",
-    "name": "新浪资源",
-    "baseUrl": "http://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    "id": "huya",
+    "name": "虎牙资源",
+    "baseUrl": "https://www.huyaapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 1,
-    "mirrors": [
-      "xinlang2"
-    ],
-    "mirrorUrls": [
-      "https://api.xinlangapi.com/xinlangapi.php/provide/vod"
-    ]
+    "priority": 1
   },
   {
     "id": "lezi",
@@ -152,6 +160,20 @@
     "group": "normal",
     "enabled": true,
     "priority": 1
+  },
+  {
+    "id": "jiangyu",
+    "name": "鲸鱼资源",
+    "baseUrl": "https://jyzyapi.com/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1,
+    "mirrors": [
+      "jinying"
+    ],
+    "mirrorUrls": [
+      "https://jinyingzy.com/api.php/provide/vod"
+    ]
   },
   {
     "id": "yilingba2",
