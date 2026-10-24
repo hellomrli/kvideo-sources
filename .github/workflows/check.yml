@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-check
+  cancel-in-progress: true
+
 jobs:
   check:
     runs-on: ubuntu-latest
