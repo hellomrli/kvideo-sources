@@ -163,17 +163,32 @@ async function runPool(items, worker) {
   });
 
   // full.json: 全量, 非 ✅ 自动禁用并附死因
+  // 同库镜像(total 相同)只保留一条最优线路, 其余不再单独输出; 备用域名附在保留线路的 mirrorUrls 里
+  const dropIds = new Set();
+  for (const ids of mirrors) {
+    const members = stats
+      .filter((s) => ids.includes(s.id))
+      .sort((a, b) => a.priority - b.priority || a.id.localeCompare(b.id));
+    members.slice(1).forEach((m) => dropIds.add(m.id));
+  }
   const full = stats
-    .map((s) => ({
-      id: s.id,
-      name: s.name,
-      baseUrl: s.baseUrl,
-      group: s.group || "normal",
-      enabled: s.icon === "✅",
-      priority: s.priority,
-      ...(s.icon !== "✅" ? { _comment: s.reason } : {}),
-      ...(s.mirror.length ? { mirrors: s.mirror } : {}),
-    }))
+    .filter((s) => !dropIds.has(s.id))
+    .map((s) => {
+      const alts = s.mirror.map((id) => {
+        const m = stats.find((x) => x.id === id);
+        return m ? m.baseUrl : null;
+      }).filter(Boolean);
+      return {
+        id: s.id,
+        name: s.name,
+        baseUrl: s.baseUrl,
+        group: s.group || "normal",
+        enabled: s.icon === "✅",
+        priority: s.priority,
+        ...(s.icon !== "✅" ? { _comment: s.reason } : {}),
+        ...(alts.length ? { mirrors: s.mirror, mirrorUrls: alts } : {}),
+      };
+    })
     .sort((a, b) => a.priority - b.priority);
   fs.writeFileSync(FULL_PATH, JSON.stringify(full, null, 2));
 
@@ -193,7 +208,7 @@ async function runPool(items, worker) {
     const host = s.baseUrl.replace(/^https?:\/\//, "").split("/")[0];
     md += `| ${s.icon} | **${s.name}** (${s.id}) | ${s.group} | ${s.priority} | ${s.rate} | \`${s.trend}\` | ${s.total ?? "-"} | ${s.mirror.join(",") || "-"} | [${host}](${s.baseUrl}) | ${s.icon === "✅" ? "-" : s.reason} |\n`;
   }
-  md += `\n### 🪞 同库镜像组 (total 相同, 大概率同一后端)\n`;
+  md += `\n### 🪞 同库镜像组 (total 相同, 大概率同一后端)\n\n订阅文件 (full.json / lite.json) 中每组只保留最优一条线路, 备用域名见该线路的 \`mirrorUrls\` 字段。\n`;
   if (mirrors.length === 0) md += `- 无\n`;
   for (const ids of mirrors) md += `- ${ids.join(" / ")}\n`;
   md += `\n### 💡 状态说明\n- ✅ 可用(连通+搜索双通过) | ❌ 今日失联 | 🚨 连断3天+ | 🚫 手动禁用\n- 优先级: 1=30天全勤 5=成功率≥90% 10=其他可用 100+=失联(数字为连续失败天数)\n- 巡检环境: GitHub Actions (海外视角, 国内直连可用性可能不同)\n`;
