@@ -9,12 +9,14 @@
     "mirrors": [
       "feifanapi",
       "feifancj",
-      "feifancj2"
+      "feifancj2",
+      "feifan1"
     ],
     "mirrorUrls": [
       "https://api.ffzyapi.com/api.php/provide/vod",
       "http://cj.ffzyapi.com/api.php/provide/vod",
-      "https://cj.ffzyapi.com/api.php/provide/vod"
+      "https://cj.ffzyapi.com/api.php/provide/vod",
+      "http://ffzy1.tv/api.php/provide/vod"
     ]
   },
   {
@@ -143,12 +145,10 @@
     "enabled": true,
     "priority": 1,
     "mirrors": [
-      "lezi2",
-      "liangzi"
+      "lezi2"
     ],
     "mirrorUrls": [
-      "http://cj.lziapi.com/api.php/provide/vod",
-      "https://cj.lzcaiji.com/api.php/provide/vod"
+      "http://cj.lziapi.com/api.php/provide/vod"
     ]
   },
   {
@@ -352,6 +352,14 @@
     "priority": 1
   },
   {
+    "id": "liangzi",
+    "name": "量子资源",
+    "baseUrl": "https://cj.lzcaiji.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "360zy",
     "name": "360 资源",
     "baseUrl": "https://360zyzz.com/api.php/provide/vod",
@@ -422,12 +430,17 @@
     ]
   },
   {
-    "id": "feifan1",
-    "name": "非凡线路1",
-    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
+    "id": "xinlang",
+    "name": "新浪资源",
+    "baseUrl": "http://api.xinlangapi.com/xinlangapi.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 101,
-    "_comment": "超时/宕机 (近期仍有成功,保留观察)"
+    "priority": 10,
+    "mirrors": [
+      "xinlang2"
+    ],
+    "mirrorUrls": [
+      "https://api.xinlangapi.com/xinlangapi.php/provide/vod"
+    ]
   }
 ]
