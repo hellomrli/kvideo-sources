@@ -9,14 +9,12 @@
     "mirrors": [
       "feifanapi",
       "feifancj",
-      "feifancj2",
-      "feifan1"
+      "feifancj2"
     ],
     "mirrorUrls": [
       "https://api.ffzyapi.com/api.php/provide/vod",
       "http://cj.ffzyapi.com/api.php/provide/vod",
-      "https://cj.ffzyapi.com/api.php/provide/vod",
-      "http://ffzy1.tv/api.php/provide/vod"
+      "https://cj.ffzyapi.com/api.php/provide/vod"
     ]
   },
   {
@@ -32,14 +30,6 @@
     "mirrorUrls": [
       "http://zuidazy.me/api.php/provide/vod"
     ]
-  },
-  {
-    "id": "baofeng",
-    "name": "暴风资源",
-    "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
   },
   {
     "id": "jisu",
@@ -138,20 +128,6 @@
     "priority": 1
   },
   {
-    "id": "lezi",
-    "name": "乐子资源",
-    "baseUrl": "https://cj.lziapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1,
-    "mirrors": [
-      "lezi2"
-    ],
-    "mirrorUrls": [
-      "http://cj.lziapi.com/api.php/provide/vod"
-    ]
-  },
-  {
     "id": "haihua",
     "name": "海豚资源",
     "baseUrl": "https://hhzyapi.com/api.php/provide/vod",
@@ -180,6 +156,20 @@
     "group": "normal",
     "enabled": true,
     "priority": 1
+  },
+  {
+    "id": "lezi2",
+    "name": "乐子HTTP",
+    "baseUrl": "http://cj.lziapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1,
+    "mirrors": [
+      "liangzi"
+    ],
+    "mirrorUrls": [
+      "https://cj.lzcaiji.com/api.php/provide/vod"
+    ]
   },
   {
     "id": "uku88",
@@ -336,25 +326,9 @@
     "priority": 1
   },
   {
-    "id": "iqiyi",
-    "name": "爱奇艺",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "maoyan",
     "name": "猫眼资源",
     "baseUrl": "https://api.maoyanapi.top/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 1
-  },
-  {
-    "id": "liangzi",
-    "name": "量子资源",
-    "baseUrl": "https://cj.lzcaiji.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 1
@@ -442,5 +416,41 @@
     "mirrorUrls": [
       "https://api.xinlangapi.com/xinlangapi.php/provide/vod"
     ]
+  },
+  {
+    "id": "baofeng",
+    "name": "暴风资源",
+    "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 101,
+    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
+  },
+  {
+    "id": "lezi",
+    "name": "乐子资源",
+    "baseUrl": "https://cj.lziapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 101,
+    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
+  },
+  {
+    "id": "feifan1",
+    "name": "非凡线路1",
+    "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 101,
+    "_comment": "超时/宕机 (近期仍有成功,保留观察)"
+  },
+  {
+    "id": "iqiyi",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 101,
+    "_comment": "超时/宕机 (近期仍有成功,保留观察)"
   }
 ]
