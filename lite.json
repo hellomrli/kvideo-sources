@@ -165,9 +165,11 @@
     "enabled": true,
     "priority": 1,
     "mirrors": [
+      "lezi",
       "liangzi"
     ],
     "mirrorUrls": [
+      "https://cj.lziapi.com/api.php/provide/vod",
       "https://cj.lzcaiji.com/api.php/provide/vod"
     ]
   },
@@ -210,6 +212,20 @@
     "priority": 1
   },
   {
+    "id": "baofeng",
+    "name": "暴风资源",
+    "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 10,
+    "mirrors": [
+      "baofeng2"
+    ],
+    "mirrorUrls": [
+      "https://app.bfzyapi.com/api.php/provide/vod"
+    ]
+  },
+  {
     "id": "guangsu",
     "name": "光速资源",
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
@@ -238,22 +254,12 @@
     ]
   },
   {
-    "id": "baofeng",
-    "name": "暴风资源",
-    "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
+    "id": "iqiyi",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 101,
-    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
-  },
-  {
-    "id": "lezi",
-    "name": "乐子资源",
-    "baseUrl": "https://cj.lziapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 101,
-    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
+    "priority": 10
   },
   {
     "id": "feifan1",
@@ -261,16 +267,7 @@
     "baseUrl": "http://ffzy1.tv/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 101,
-    "_comment": "超时/宕机 (近期仍有成功,保留观察)"
-  },
-  {
-    "id": "iqiyi",
-    "name": "爱奇艺",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 101,
+    "priority": 102,
     "_comment": "超时/宕机 (近期仍有成功,保留观察)"
   }
 ]
