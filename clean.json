@@ -276,14 +276,6 @@
     "priority": 1
   },
   {
-    "id": "naixiang",
-    "name": "奶香香",
-    "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
-    "group": "premium",
-    "enabled": true,
-    "priority": 1
-  },
-  {
     "id": "senlin",
     "name": "森林资源",
     "baseUrl": "https://slapibf.com/api.php/provide/vod",
@@ -399,7 +391,7 @@
     "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10,
+    "priority": 5,
     "mirrors": [
       "baofeng2"
     ],
@@ -413,13 +405,21 @@
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10,
+    "priority": 5,
     "mirrors": [
       "guangsu2"
     ],
     "mirrorUrls": [
       "http://api.guangsuapi.com/api.php/provide/vod"
     ]
+  },
+  {
+    "id": "iqiyi",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
   },
   {
     "id": "xinlang",
@@ -436,11 +436,12 @@
     ]
   },
   {
-    "id": "iqiyi",
-    "name": "爱奇艺",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "group": "normal",
+    "id": "naixiang",
+    "name": "奶香香",
+    "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
+    "group": "premium",
     "enabled": true,
-    "priority": 10
+    "priority": 101,
+    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
   }
 ]

@@ -219,7 +219,7 @@
     "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10,
+    "priority": 5,
     "mirrors": [
       "baofeng2"
     ],
@@ -233,13 +233,21 @@
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10,
+    "priority": 5,
     "mirrors": [
       "guangsu2"
     ],
     "mirrorUrls": [
       "http://api.guangsuapi.com/api.php/provide/vod"
     ]
+  },
+  {
+    "id": "iqiyi",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
   },
   {
     "id": "xinlang",
@@ -254,13 +262,5 @@
     "mirrorUrls": [
       "https://api.xinlangapi.com/xinlangapi.php/provide/vod"
     ]
-  },
-  {
-    "id": "iqiyi",
-    "name": "爱奇艺",
-    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 10
   }
 ]
