@@ -6388,7 +6388,7 @@
       },
       {
         "api": "https://www.mdzyapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://360zy.com/api.php/provide/vod",
@@ -6448,7 +6448,7 @@
       },
       {
         "api": "https://www.moduzy.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://api.ffzyapi.com/api.php/provide/vod",
@@ -6568,7 +6568,7 @@
       },
       {
         "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://www.hongniuzy3.com/api.php/provide/vod",
@@ -6668,7 +6668,7 @@
       },
       {
         "api": "https://iqiyizyapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://caiji.dbzy5.com/api.php/provide/vod",
