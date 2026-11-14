@@ -1,59 +1,63 @@
-# 🎬 KVideo 采集源巡检
+# kvideo-sources
 
-KVideo（苹果CMS V10 采集源播放器）的订阅源仓库，种子来自：
+为 KVideo 提供苹果 CMS V10 采集源订阅，通过每日接口与搜索巡检整理线路和备用镜像。
 
-- NAS 上 KVideo 的 EW订阅源（78 个）
-- [puppet680/KVideo-config](https://github.com/puppet680/KVideo-config)（58 个）
+[最新巡检](report.md) · [订阅维护](docs/index.md) · [自动任务](https://github.com/hellomrli/kvideo-sources/actions/workflows/check.yml)
 
-两边合并去重后共 **98 个源**，由 GitHub Actions **每天自动巡检**（北京时间凌晨 2 点），失效源自动禁用并标注死因，可用源按 30 天成功率动态排序。
+## 添加订阅
 
-> 巡检思路参考 [puppet680/KVideo-config](https://github.com/puppet680/KVideo-config)，在其基础上增加了连通+搜索双重检测和同库镜像站标记。
+在 KVideo 设置中添加下面的订阅地址。`lite.json` 只保留普通组的启用线路：
 
-## 📦 订阅文件
+```text
+https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/lite.json
+```
 
-| 文件 | 内容 | KVideo 订阅地址 |
-| :--- | :--- | :--- |
-| [full.json](full.json) | 全量（含成人组），失效源 `enabled:false` 保留死因，复活自动重启 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/full.json` |
-| [clean.json](clean.json) | 只含启用中的源（含成人组），不带任何禁用条目 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/clean.json` |
-| [lite.json](lite.json) | 仅普通组且当前可用，纯净版 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/lite.json` |
+按需要选择其他文件：
 
-在 KVideo 设置里添加订阅源即可，格式同 EW订阅源。
+| 文件 | 内容 | 订阅地址 |
+|---|---|---|
+| [lite.json](lite.json) | 普通组的启用线路 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/lite.json` |
+| [clean.json](clean.json) | 所有组的启用线路，包含成人组 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/clean.json` |
+| [full.json](full.json) | 全部组，保留禁用条目及原因，包含成人组 | `https://raw.githubusercontent.com/hellomrli/kvideo-sources/main/full.json` |
 
-## 📁 文件结构
+启用条目可能处于“保留观察”状态：近期有成功记录时，单日失败不会立即移出订阅。当天检测结果、成功率和线路备注见 [report.md](report.md)。
 
-| 文件 | 说明 |
-| :--- | :--- |
-| `sources.json` | **主档**：所有源的人工维护入口，增删源改这个文件 |
-| `check.js` | 巡检脚本：双检 + 状态机 + 镜像标记，零依赖纯 Node |
-| `full.json` / `lite.json` | 巡检产物（自动生成，勿手改） |
-| `report.md` | 可视化巡检报告（自动生成） |
-| `history.json` | 30 天滚动历史（自动生成，是成功率计算的依据） |
+## 巡检提供什么
 
-## 🔍 检测逻辑
+- 检查接口列表和真实关键词搜索，两步都通过才记为当日成功。
+- 按最多 30 条每日历史计算成功率和优先级。
+- 近期仍成功的线路保留观察，连续失败 3 天后自动禁用。
+- 对疑似同库镜像保留一条首选线路，并在 `mirrorUrls` 中附上备用地址。
+- 每天北京时间 02:00 自动更新，也可在 Actions 中指定搜索关键词手动运行。
 
-每个源做两步检测，全部通过才算 ✅：
+巡检检查采集 API 和搜索结果，不逐条验证视频是否能播放。GitHub Actions 与家庭网络的位置不同，实际观看仍以播放器结果为准。
 
-1. `?ac=list` — 接口连通、返回 code=1、库非空（顺带取 total 库存数）
-2. `?ac=detail&wd=斗罗大陆` — 用固定关键词真实搜索，验证搜索链路可用
+## 本地巡检
 
-状态机：
+需要 Node.js 20，与当前自动任务一致；没有 npm 依赖。以下命令会访问所有启用源，并改写巡检产物：
 
-- ✅ **可用**：双检通过
-- ❌ **失联**：今日检测失败（备注死因：超时/宕机、接口异常、库为空、搜索无结果）
-- 🚨 **宕机预警**：连续 3 天以上失败
-- 🚫 **手动禁用**：主档里 `enabled:false`
+```bash
+git clone https://github.com/hellomrli/kvideo-sources.git
+cd kvideo-sources
+node check.js
+```
 
-**粘性保留**：采集站搜索接口偶发抽风，单日失败不会立即把源移出订阅——7 天内仍有成功且未连断 3 天就保留观察（备注"保留观察"），连断 3 天才真正禁用。避免源在订阅里反复横跳。
+默认搜索关键词是 `斗罗大陆`。指定其他关键词时传入第一个参数：
 
-优先级自动计算：30 天全勤 → 1，成功率 ≥90% → 5，其他可用 → 10，失联 → 100+连续失败天数。
+```bash
+node check.js "庆余年"
+```
 
-**同库镜像合并**：多个源 `total` 库存数完全相同时视为同一后端的不同域名。巡检仍然全量检测所有线路，但订阅文件（`full.json` / `lite.json`）里**每个库只保留最优的一条线路**（按 30 天成功率排序），备用域名附在保留线路的 `mirrorUrls` 字段——主线路挂了可以手动换备用域名。完整镜像分组见 [report.md](report.md)。
+完成后会更新 `full.json`、`clean.json`、`lite.json`、`report.md` 和 `history.json`。本地巡检从本机网络观察源可用性。
 
-## ⚠️ 已知局限
+## 维护源列表
 
-巡检跑在 GitHub Actions（海外）上，与国内家庭宽带直连的可用性存在差异：部分源海外 ✅ 国内超时（或反之）。以实际播放体验为准，必要时可在自己 NAS 上加 self-hosted runner 获得本地视角。
+在 [sources.json](sources.json) 中增删线路。生成的订阅文件会在下一次巡检时重建，长期修改应写入主档。
 
-## 🙏 致谢
+新增源字段、手动禁用、镜像判断和失败排查见[文档索引](docs/index.md)。
 
-- [puppet680/KVideo-config](https://github.com/puppet680/KVideo-config) — 每日巡检 + 自动清洗的思路
-- [kuekhaoyang/kvideo](https://hub.docker.com/r/kuekhaoyang/kvideo) — KVideo 本体
+## 来源与反馈
+
+种子来自已维护的 EW 订阅和 [puppet680/KVideo-config](https://github.com/puppet680/KVideo-config)，巡检方案也参考了该项目。播放器项目见 [KVideo 容器](https://hub.docker.com/r/kuekhaoyang/kvideo)。
+
+提交 [Issue](https://github.com/hellomrli/kvideo-sources/issues) 时提供源 ID、检查时间、网络位置和失败原因。仓库目前没有根目录许可证文件。
