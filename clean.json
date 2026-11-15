@@ -370,12 +370,48 @@
     ]
   },
   {
+    "id": "guangsu",
+    "name": "光速资源",
+    "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5,
+    "mirrors": [
+      "guangsu2"
+    ],
+    "mirrorUrls": [
+      "http://api.guangsuapi.com/api.php/provide/vod"
+    ]
+  },
+  {
+    "id": "huya",
+    "name": "虎牙资源",
+    "baseUrl": "https://www.huyaapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "haihua",
     "name": "海豚资源",
     "baseUrl": "https://hhzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 5
+  },
+  {
+    "id": "jiangyu",
+    "name": "鲸鱼资源",
+    "baseUrl": "https://jyzyapi.com/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5,
+    "mirrors": [
+      "jinying"
+    ],
+    "mirrorUrls": [
+      "https://jinyingzy.com/api.php/provide/vod"
+    ]
   },
   {
     "id": "iqiyi",
@@ -398,50 +434,5 @@
     "mirrorUrls": [
       "https://api.xinlangapi.com/xinlangapi.php/provide/vod"
     ]
-  },
-  {
-    "id": "guangsu",
-    "name": "光速资源",
-    "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 101,
-    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
-  },
-  {
-    "id": "huya",
-    "name": "虎牙资源",
-    "baseUrl": "https://www.huyaapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 101,
-    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
-  },
-  {
-    "id": "jiangyu",
-    "name": "鲸鱼资源",
-    "baseUrl": "https://jyzyapi.com/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 101,
-    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
-  },
-  {
-    "id": "guangsu2",
-    "name": "光速HTTP",
-    "baseUrl": "http://api.guangsuapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 101,
-    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
-  },
-  {
-    "id": "jinying",
-    "name": "金鹰点播",
-    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 101,
-    "_comment": "搜索无结果 (近期仍有成功,保留观察)"
   }
 ]
