@@ -1,118 +1,121 @@
 # 🎬 KVideo 采集源巡检报告
 
-> **更新时间：** 2026-11-17 09:39 CST | **检测关键字：** 斗罗大陆 | **总源数：** 98 | **可用：** 59
+> **更新时间：** 2026-11-18 08:37 CST | **检测关键字：** 斗罗大陆 | **总源数：** 98 | **可用：** 61
 
 | 状态 | 名称 | 组 | 优先级 | 成功率 | 7天趋势 | 库存 | 镜像站 | 源站 | 备注 |
 | :--- | :--- | :---: | :---: | :---: | :--- | ---: | :--- | :--- | :--- |
-| ✅ | **非凡资源** (feifan) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99161 | feifanapi,feifancj,feifancj2,feifan1 | [ffzy5.tv](http://ffzy5.tv/api.php/provide/vod) | - |
-| ✅ | **极速资源** (jisu) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 116865 | - | [jszyapi.com](https://jszyapi.com/api.php/provide/vod) | - |
-| ✅ | **无尽资源** (wujin) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 125258 | wujin2,wujincc,wujinnet | [api.wujinapi.com](https://api.wujinapi.com/api.php/provide/vod) | - |
-| ✅ | **魔都资源** (modu) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 91891 | moduzy,modudongman | [www.mdzyapi.com](https://www.mdzyapi.com/api.php/provide/vod) | - |
-| ✅ | **360资源** (sanliuling) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 75219 | - | [360zy.com](https://360zy.com/api.php/provide/vod) | - |
-| ✅ | **电影天堂** (dytt) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 85193 | - | [caiji.dyttzyapi.com](http://caiji.dyttzyapi.com/api.php/provide/vod) | - |
-| ✅ | **如意资源** (ruyi) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 90212 | - | [cj.rycjapi.com](https://cj.rycjapi.com/api.php/provide/vod) | - |
-| ✅ | **红牛资源** (hongniu) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 117939 | hongniu3 | [www.hongniuzy2.com](https://www.hongniuzy2.com/api.php/provide/vod) | - |
-| ✅ | **iKun资源** (ikun) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 67729 | - | [ikunzyapi.com](https://ikunzyapi.com/api.php/provide/vod) | - |
-| ✅ | **优酷资源** (youku) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 60717 | uku88 | [api.ukuapi.com](https://api.ukuapi.com/api.php/provide/vod) | - |
-| ✅ | **魔都影视** (moduzy) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 91891 | modu,modudongman | [www.moduzy.com](https://www.moduzy.com/api.php/provide/vod) | - |
-| ✅ | **非凡API** (feifanapi) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99161 | feifan,feifancj,feifancj2,feifan1 | [api.ffzyapi.com](https://api.ffzyapi.com/api.php/provide/vod) | - |
-| ✅ | **非凡采集** (feifancj) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99161 | feifan,feifanapi,feifancj2,feifan1 | [cj.ffzyapi.com](http://cj.ffzyapi.com/api.php/provide/vod) | - |
-| ✅ | **非凡采集HTTPS** (feifancj2) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99161 | feifan,feifanapi,feifancj,feifan1 | [cj.ffzyapi.com](https://cj.ffzyapi.com/api.php/provide/vod) | - |
-| ✅ | **1080JSON** (yilingba2) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 109482 | - | [api.1080zyku.com](https://api.1080zyku.com/inc/apijson.php) | - |
-| ✅ | **乐子HTTP** (lezi2) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 164196 | lezi,liangzi | [cj.lziapi.com](http://cj.lziapi.com/api.php/provide/vod) | - |
-| ✅ | **U酷资源88** (uku88) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 60717 | youku | [api.ukuapi88.com](https://api.ukuapi88.com/api.php/provide/vod) | - |
-| ✅ | **速博资源** (subo) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 118458 | - | [subocaiji.com](https://subocaiji.com/api.php/provide/vod) | - |
-| ✅ | **魔都动漫** (modudongman) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 91891 | modu,moduzy | [caiji.moduapi.cc](https://caiji.moduapi.cc/api.php/provide/vod) | - |
-| ✅ | **红牛资源3** (hongniu3) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 117939 | hongniu | [www.hongniuzy3.com](https://www.hongniuzy3.com/api.php/provide/vod) | - |
-| ✅ | **乐播资源** (leba) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 339114 | - | [lbapi9.com](https://lbapi9.com/api.php/provide/vod) | - |
-| ✅ | **jkun** (jkun) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 134319 | - | [jkunzyapi.com](https://jkunzyapi.com/api.php/provide/vod) | - |
-| ✅ | **155** (155) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 193730 | - | [155api.com](https://155api.com/api.php/provide/vod) | - |
-| ✅ | **lsb** (lsb) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 226629 | yutu,yutu2 | [apilsbzy1.com](https://apilsbzy1.com/api.php/provide/vod) | - |
-| ✅ | **黄色仓库** (hsck) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 70516 | hsck2 | [hsckzy.vip](https://hsckzy.vip/api.php/provide/vod) | - |
-| ✅ | **玉兔** (yutu) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 226629 | lsb,yutu2 | [yutuzy10.com](https://yutuzy10.com/api.php/provide/vod) | - |
-| ✅ | **香奶儿资源站** (gdlsp) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 24824 | - | [www.gdlsp.com](https://www.gdlsp.com/api/json.php) | - |
-| ✅ | **黄AV资源站** (pgxdy) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 24662 | - | [www.pgxdy.com](https://www.pgxdy.com/api/json.php) | - |
-| ✅ | **91麻豆** (madou) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 41165 | - | [91md.me](https://91md.me/api.php/provide/vod) | - |
-| ✅ | **森林资源** (senlin) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 264196 | senlin2 | [slapibf.com](https://slapibf.com/api.php/provide/vod) | - |
-| ✅ | **番号资源** (fanhao) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 238882 | - | [fhapi9.com](http://fhapi9.com/api.php/provide/vod) | - |
-| ✅ | **精品资源** (jingpin) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 67388 | - | [www.jingpinx.com](https://www.jingpinx.com/api.php/provide/vod) | - |
-| ✅ | **鲨鱼资源** (shayu) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 290628 | - | [shayuapi.com](https://shayuapi.com/api.php/provide/vod) | - |
-| ✅ | **小鸡资源** (xiaoji) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 84943 | - | [api.xiaojizy.live](https://api.xiaojizy.live/provide/vod) | - |
-| ✅ | **猫眼资源** (maoyan) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 34532 | - | [api.maoyanapi.top](https://api.maoyanapi.top/api.php/provide/vod) | - |
-| ✅ | **量子资源** (liangzi) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 164196 | lezi,lezi2 | [cj.lzcaiji.com](https://cj.lzcaiji.com/api.php/provide/vod) | - |
-| ✅ | **360 资源** (360zy) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 75154 | - | [360zyzz.com](https://360zyzz.com/api.php/provide/vod) | - |
-| ✅ | **玉兔资源** (yutu2) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 226629 | lsb,yutu | [apiyutu.com](https://apiyutu.com/api.php/provide/vod) | - |
-| ✅ | **黄色仓库** (hsck2) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 70516 | hsck | [hsckzy.xyz](https://hsckzy.xyz/api.php/provide/vod) | - |
-| ✅ | **森林资源** (senlin2) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 264196 | senlin | [beiyong.slapibf.com](https://beiyong.slapibf.com/api.php/provide/vod) | - |
-| ✅ | **辣椒资源** (lajiao) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 233372 | - | [apilj.com](https://apilj.com/api.php/provide/vod) | - |
-| ✅ | **豆豆资源** (doudou) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 57687 | - | [api.douapi.cc](https://api.douapi.cc/api.php/provide/vod) | - |
-| ✅ | **滴滴资源** (didi) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 47007 | - | [api.ddapi.cc](https://api.ddapi.cc/api.php/provide/vod) | - |
-| ✅ | **黑料资源** (heiliao) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 104420 | - | [www.heiliaozyapi.com](https://www.heiliaozyapi.com/api.php/provide/vod) | - |
-| ✅ | **桃花资源** (taohua) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 152722 | - | [thzy1.me](https://thzy1.me/api.php/provide/vod) | - |
-| ✅ | **souavZY** (souav) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 129397 | - | [api.souavzyw.net](https://api.souavzyw.net/api.php/provide/vod) | - |
-| ✅ | **最大资源** (zuida) | normal | 5 | 95.2% | `✅✅✅❌✅✅✅` | 125969 | - | [api.zuidapi.com](https://api.zuidapi.com/api.php/provide/vod) | - |
-| ✅ | **暴风资源** (baofeng) | normal | 5 | 95.2% | `✅✅✅✅✅✅✅` | 172613 | baofeng2 | [bfzyapi.com](https://bfzyapi.com/api.php/provide/vod) | - |
-| ✅ | **乐子资源** (lezi) | normal | 5 | 95.2% | `✅✅✅✅✅✅✅` | 164196 | lezi2,liangzi | [cj.lziapi.com](https://cj.lziapi.com/api.php/provide/vod) | - |
-| ✅ | **海豚资源** (haihua) | normal | 5 | 95.2% | `✅✅✅✅✅✅✅` | 117624 | - | [hhzyapi.com](https://hhzyapi.com/api.php/provide/vod) | - |
-| ✅ | **无尽ME** (wujin2) | normal | 5 | 95.2% | `✅✅✅✅✅✅✅` | 125258 | wujin,wujincc,wujinnet | [api.wujinapi.me](https://api.wujinapi.me/api.php/provide/vod) | - |
-| ✅ | **无尽CC** (wujincc) | normal | 5 | 95.2% | `✅✅✅✅✅✅✅` | 125258 | wujin,wujin2,wujinnet | [api.wujinapi.cc](https://api.wujinapi.cc/api.php/provide/vod) | - |
-| ✅ | **无尽NET** (wujinnet) | normal | 5 | 95.2% | `✅✅✅✅✅✅✅` | 125258 | wujin,wujin2,wujincc | [api.wujinapi.net](https://api.wujinapi.net/api.php/provide/vod) | - |
-| ✅ | **最大点播** (zuidame) | normal | 5 | 95.2% | `✅✅✅❌✅✅✅` | 125970 | - | [zuidazy.me](http://zuidazy.me/api.php/provide/vod) | - |
-| ✅ | **爱奇艺** (iqiyi) | normal | 5 | 95.2% | `✅✅✅✅✅✅✅` | 70922 | - | [iqiyizyapi.com](https://iqiyizyapi.com/api.php/provide/vod) | - |
-| ✅ | **新浪资源** (xinlang) | normal | 10 | 81.0% | `✅✅✅✅✅✅✅` | 118563 | xinlang2 | [api.xinlangapi.com](http://api.xinlangapi.com/xinlangapi.php/provide/vod) | - |
-| ✅ | **非凡线路1** (feifan1) | normal | 10 | 81.0% | `✅✅✅✅✅✅✅` | 99161 | feifan,feifanapi,feifancj,feifancj2 | [ffzy1.tv](http://ffzy1.tv/api.php/provide/vod) | - |
-| ✅ | **暴风APP** (baofeng2) | normal | 10 | 71.4% | `✅✅✅✅✅✅✅` | 172613 | baofeng | [app.bfzyapi.com](https://app.bfzyapi.com/api.php/provide/vod) | - |
-| ✅ | **新浪HTTPS** (xinlang2) | normal | 10 | 81.0% | `✅✅✅✅✅✅✅` | 118563 | xinlang | [api.xinlangapi.com](https://api.xinlangapi.com/xinlangapi.php/provide/vod) | - |
-| ❌ | **光速资源** (guangsu) | normal | 101 | 85.7% | `✅✅✅✅❌✅❌` | 118531 | - | [api.guangsuapi.com](https://api.guangsuapi.com/api.php/provide/vod) | 搜索无结果 |
-| ❌ | **虎牙资源** (huya) | normal | 101 | 90.5% | `✅✅✅✅❌✅❌` | 117454 | - | [www.huyaapi.com](https://www.huyaapi.com/api.php/provide/vod) | 搜索无结果 |
-| ❌ | **鲸鱼资源** (jiangyu) | normal | 101 | 90.5% | `✅✅✅✅❌✅❌` | 118517 | - | [jyzyapi.com](https://jyzyapi.com/provide/vod) | 搜索无结果 |
-| ❌ | **光速HTTP** (guangsu2) | normal | 101 | 85.7% | `✅✅✅✅❌✅❌` | 118531 | - | [api.guangsuapi.com](http://api.guangsuapi.com/api.php/provide/vod) | 搜索无结果 |
-| ❌ | **金鹰点播** (jinying) | normal | 101 | 90.5% | `✅✅✅✅❌✅❌` | - | - | [jinyingzy.com](https://jinyingzy.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **奶香香** (naixiang) | premium | 112 | 42.9% | `❌❌❌❌❌❌❌` | 183647 | - | [Naixxzy.com](https://Naixxzy.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **卧龙资源** (wolong) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [wolongzyw.com](https://wolongzyw.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **百度云资源** (baiduyun) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [api.apibdzy.com](https://api.apibdzy.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **天涯资源** (tianya) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 75194 | - | [tyyszy.com](https://tyyszy.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **旺旺资源** (wangwang) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [wwzy.tv](https://wwzy.tv/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **爱蛋资源** (aidan) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [lovedan.net](https://lovedan.net/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **卧龙采集** (wolong2) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [collect.wolongzyw.com](https://collect.wolongzyw.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **天涯海角** (tianyazy) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 75194 | - | [tyyszyapi.com](https://tyyszyapi.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **丫丫点播** (yaya) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 124025 | - | [cj.yayazy.net](https://cj.yayazy.net/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **卧龙CC** (wolongcc) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [collect.wolongzy.cc](https://collect.wolongzy.cc/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **旺旺API** (wangwangapi) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [api.wwzy.tv](https://api.wwzy.tv/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **樱花资源** (yinghua) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 105520 | - | [m3u8.apiyhzy.com](https://m3u8.apiyhzy.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **步步高资源** (bubugao) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 304184 | - | [api.yparse.com](https://api.yparse.com/api/json) | 搜索无结果 |
-| 🚨 | **牛牛点播** (niuniu) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 125980 | - | [api.niuniuzy.me](https://api.niuniuzy.me/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **索尼资源** (suoni) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 149193 | - | [suoniapi.com](https://suoniapi.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **茅台资源** (maotai) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 152814 | - | [caiji.maotaizy.cc](https://caiji.maotaizy.cc/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **豆瓣资源** (dbzy) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [dbzy.tv](https://dbzy.tv/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **閃電资源** (shandian) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 125769 | - | [sdzyapi.com](https://sdzyapi.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **飘零资源** (piaoling) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [p2100.net](https://p2100.net/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **索尼-闪电** (suonisd) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | 125769 | - | [xsd.sdzyapi.com](https://xsd.sdzyapi.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **CK** (ck) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | 7674 | - | [www.ckzy1.com](https://www.ckzy1.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **美少女资源站** (msnii) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | 25789 | - | [www.msnii.com](https://www.msnii.com/api/json.php) | 搜索无结果 |
-| 🚨 | **淫水机资源站** (xrbsp) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | 24502 | - | [www.xrbsp.com](https://www.xrbsp.com/api/json.php) | 搜索无结果 |
-| 🚨 | **白嫖资源站** (kxgav) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | 24496 | - | [www.kxgav.com](https://www.kxgav.com/api/json.php) | 搜索无结果 |
-| 🚨 | **百万资源** (baiwan) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [api.bwzyz.com](https://api.bwzyz.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **奥斯卡资源** (aosika) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | 220131 | - | [aosikazy.com](https://aosikazy.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **细胞采集** (xibao) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [www.xxibaozyw.com](https://www.xxibaozyw.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **豆瓣资源** (dbzy2) | normal | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [caiji.dbzy5.com](https://caiji.dbzy5.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **91-精品** (91jp) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [91jpzyw.com](https://91jpzyw.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **AIvin** (alvin) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [lbapiby.com](http://lbapiby.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **优优资源** (youyou) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [www.yyzywcj.com](https://www.yyzywcj.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **大奶子** (danaizi) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | 144795 | - | [apidanaizi.com](https://apidanaizi.com/api.php/provide/vod) | 搜索无结果 |
-| 🚨 | **幸资源** (xing) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [xzybb2.com](https://xzybb2.com/api.php/provide/vod) | 超时/宕机 |
-| 🚨 | **色猫资源** (semao) | premium | 121 | 0.0% | `❌❌❌❌❌❌❌` | 0 | - | [caiji.semaozy.net](https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod) | 库为空 |
+| ✅ | **非凡资源** (feifan) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99166 | feifanapi,feifancj,feifancj2,feifan1 | [ffzy5.tv](http://ffzy5.tv/api.php/provide/vod) | - |
+| ✅ | **极速资源** (jisu) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 116930 | - | [jszyapi.com](https://jszyapi.com/api.php/provide/vod) | - |
+| ✅ | **无尽资源** (wujin) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 125312 | wujin2,wujincc,wujinnet | [api.wujinapi.com](https://api.wujinapi.com/api.php/provide/vod) | - |
+| ✅ | **魔都资源** (modu) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 91939 | modudongman | [www.mdzyapi.com](https://www.mdzyapi.com/api.php/provide/vod) | - |
+| ✅ | **电影天堂** (dytt) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 85196 | - | [caiji.dyttzyapi.com](http://caiji.dyttzyapi.com/api.php/provide/vod) | - |
+| ✅ | **如意资源** (ruyi) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 90215 | - | [cj.rycjapi.com](https://cj.rycjapi.com/api.php/provide/vod) | - |
+| ✅ | **红牛资源** (hongniu) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 118004 | hongniu3 | [www.hongniuzy2.com](https://www.hongniuzy2.com/api.php/provide/vod) | - |
+| ✅ | **iKun资源** (ikun) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 67734 | - | [ikunzyapi.com](https://ikunzyapi.com/api.php/provide/vod) | - |
+| ✅ | **优酷资源** (youku) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 60757 | uku88 | [api.ukuapi.com](https://api.ukuapi.com/api.php/provide/vod) | - |
+| ✅ | **非凡API** (feifanapi) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99166 | feifan,feifancj,feifancj2,feifan1 | [api.ffzyapi.com](https://api.ffzyapi.com/api.php/provide/vod) | - |
+| ✅ | **非凡采集** (feifancj) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99166 | feifan,feifanapi,feifancj2,feifan1 | [cj.ffzyapi.com](http://cj.ffzyapi.com/api.php/provide/vod) | - |
+| ✅ | **非凡采集HTTPS** (feifancj2) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 99166 | feifan,feifanapi,feifancj,feifan1 | [cj.ffzyapi.com](https://cj.ffzyapi.com/api.php/provide/vod) | - |
+| ✅ | **1080JSON** (yilingba2) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 109597 | - | [api.1080zyku.com](https://api.1080zyku.com/inc/apijson.php) | - |
+| ✅ | **乐子HTTP** (lezi2) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 164286 | lezi,liangzi | [cj.lziapi.com](http://cj.lziapi.com/api.php/provide/vod) | - |
+| ✅ | **U酷资源88** (uku88) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 60757 | youku | [api.ukuapi88.com](https://api.ukuapi88.com/api.php/provide/vod) | - |
+| ✅ | **速博资源** (subo) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 118523 | - | [subocaiji.com](https://subocaiji.com/api.php/provide/vod) | - |
+| ✅ | **魔都动漫** (modudongman) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 91939 | modu | [caiji.moduapi.cc](https://caiji.moduapi.cc/api.php/provide/vod) | - |
+| ✅ | **红牛资源3** (hongniu3) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 118004 | hongniu | [www.hongniuzy3.com](https://www.hongniuzy3.com/api.php/provide/vod) | - |
+| ✅ | **乐播资源** (leba) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 339265 | - | [lbapi9.com](https://lbapi9.com/api.php/provide/vod) | - |
+| ✅ | **jkun** (jkun) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 134383 | - | [jkunzyapi.com](https://jkunzyapi.com/api.php/provide/vod) | - |
+| ✅ | **155** (155) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 193792 | - | [155api.com](https://155api.com/api.php/provide/vod) | - |
+| ✅ | **lsb** (lsb) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 226820 | yutu,yutu2 | [apilsbzy1.com](https://apilsbzy1.com/api.php/provide/vod) | - |
+| ✅ | **黄色仓库** (hsck) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 70567 | hsck2 | [hsckzy.vip](https://hsckzy.vip/api.php/provide/vod) | - |
+| ✅ | **玉兔** (yutu) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 226820 | lsb,yutu2 | [yutuzy10.com](https://yutuzy10.com/api.php/provide/vod) | - |
+| ✅ | **香奶儿资源站** (gdlsp) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 24835 | - | [www.gdlsp.com](https://www.gdlsp.com/api/json.php) | - |
+| ✅ | **黄AV资源站** (pgxdy) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 24673 | - | [www.pgxdy.com](https://www.pgxdy.com/api/json.php) | - |
+| ✅ | **91麻豆** (madou) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 41205 | - | [91md.me](https://91md.me/api.php/provide/vod) | - |
+| ✅ | **森林资源** (senlin) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 264349 | senlin2 | [slapibf.com](https://slapibf.com/api.php/provide/vod) | - |
+| ✅ | **番号资源** (fanhao) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 238944 | - | [fhapi9.com](http://fhapi9.com/api.php/provide/vod) | - |
+| ✅ | **精品资源** (jingpin) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 67569 | - | [www.jingpinx.com](https://www.jingpinx.com/api.php/provide/vod) | - |
+| ✅ | **鲨鱼资源** (shayu) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 290781 | - | [shayuapi.com](https://shayuapi.com/api.php/provide/vod) | - |
+| ✅ | **小鸡资源** (xiaoji) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 84996 | - | [api.xiaojizy.live](https://api.xiaojizy.live/provide/vod) | - |
+| ✅ | **猫眼资源** (maoyan) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 34581 | - | [api.maoyanapi.top](https://api.maoyanapi.top/api.php/provide/vod) | - |
+| ✅ | **量子资源** (liangzi) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 164286 | lezi,lezi2 | [cj.lzcaiji.com](https://cj.lzcaiji.com/api.php/provide/vod) | - |
+| ✅ | **360 资源** (360zy) | normal | 1 | 100.0% | `✅✅✅✅✅✅✅` | 75214 | - | [360zyzz.com](https://360zyzz.com/api.php/provide/vod) | - |
+| ✅ | **玉兔资源** (yutu2) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 226820 | lsb,yutu | [apiyutu.com](https://apiyutu.com/api.php/provide/vod) | - |
+| ✅ | **黄色仓库** (hsck2) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 70567 | hsck | [hsckzy.xyz](https://hsckzy.xyz/api.php/provide/vod) | - |
+| ✅ | **森林资源** (senlin2) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 264349 | senlin | [beiyong.slapibf.com](https://beiyong.slapibf.com/api.php/provide/vod) | - |
+| ✅ | **辣椒资源** (lajiao) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 233434 | - | [apilj.com](https://apilj.com/api.php/provide/vod) | - |
+| ✅ | **豆豆资源** (doudou) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 57724 | - | [api.douapi.cc](https://api.douapi.cc/api.php/provide/vod) | - |
+| ✅ | **滴滴资源** (didi) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 47044 | - | [api.ddapi.cc](https://api.ddapi.cc/api.php/provide/vod) | - |
+| ✅ | **黑料资源** (heiliao) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 104481 | - | [www.heiliaozyapi.com](https://www.heiliaozyapi.com/api.php/provide/vod) | - |
+| ✅ | **桃花资源** (taohua) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 152904 | - | [thzy1.me](https://thzy1.me/api.php/provide/vod) | - |
+| ✅ | **souavZY** (souav) | premium | 1 | 100.0% | `✅✅✅✅✅✅✅` | 129511 | - | [api.souavzyw.net](https://api.souavzyw.net/api.php/provide/vod) | - |
+| ✅ | **最大资源** (zuida) | normal | 5 | 95.5% | `✅✅❌✅✅✅✅` | 125992 | zuidame | [api.zuidapi.com](https://api.zuidapi.com/api.php/provide/vod) | - |
+| ✅ | **暴风资源** (baofeng) | normal | 5 | 95.5% | `✅✅✅✅✅✅✅` | 172776 | baofeng2 | [bfzyapi.com](https://bfzyapi.com/api.php/provide/vod) | - |
+| ✅ | **虎牙资源** (huya) | normal | 5 | 90.9% | `✅✅✅❌✅❌✅` | 117519 | - | [www.huyaapi.com](https://www.huyaapi.com/api.php/provide/vod) | - |
+| ✅ | **乐子资源** (lezi) | normal | 5 | 95.5% | `✅✅✅✅✅✅✅` | 164286 | lezi2,liangzi | [cj.lziapi.com](https://cj.lziapi.com/api.php/provide/vod) | - |
+| ✅ | **海豚资源** (haihua) | normal | 5 | 95.5% | `✅✅✅✅✅✅✅` | 117689 | - | [hhzyapi.com](https://hhzyapi.com/api.php/provide/vod) | - |
+| ✅ | **鲸鱼资源** (jiangyu) | normal | 5 | 90.9% | `✅✅✅❌✅❌✅` | 118582 | jinying | [jyzyapi.com](https://jyzyapi.com/provide/vod) | - |
+| ✅ | **无尽ME** (wujin2) | normal | 5 | 95.5% | `✅✅✅✅✅✅✅` | 125312 | wujin,wujincc,wujinnet | [api.wujinapi.me](https://api.wujinapi.me/api.php/provide/vod) | - |
+| ✅ | **无尽CC** (wujincc) | normal | 5 | 95.5% | `✅✅✅✅✅✅✅` | 125312 | wujin,wujin2,wujinnet | [api.wujinapi.cc](https://api.wujinapi.cc/api.php/provide/vod) | - |
+| ✅ | **无尽NET** (wujinnet) | normal | 5 | 95.5% | `✅✅✅✅✅✅✅` | 125312 | wujin,wujin2,wujincc | [api.wujinapi.net](https://api.wujinapi.net/api.php/provide/vod) | - |
+| ✅ | **最大点播** (zuidame) | normal | 5 | 95.5% | `✅✅❌✅✅✅✅` | 125992 | zuida | [zuidazy.me](http://zuidazy.me/api.php/provide/vod) | - |
+| ✅ | **金鹰点播** (jinying) | normal | 5 | 90.9% | `✅✅✅❌✅❌✅` | 118582 | jiangyu | [jinyingzy.com](https://jinyingzy.com/api.php/provide/vod) | - |
+| ✅ | **光速资源** (guangsu) | normal | 10 | 86.4% | `✅✅✅❌✅❌✅` | 118596 | guangsu2 | [api.guangsuapi.com](https://api.guangsuapi.com/api.php/provide/vod) | - |
+| ✅ | **新浪资源** (xinlang) | normal | 10 | 81.8% | `✅✅✅✅✅✅✅` | 118628 | xinlang2 | [api.xinlangapi.com](http://api.xinlangapi.com/xinlangapi.php/provide/vod) | - |
+| ✅ | **非凡线路1** (feifan1) | normal | 10 | 81.8% | `✅✅✅✅✅✅✅` | 99166 | feifan,feifanapi,feifancj,feifancj2 | [ffzy1.tv](http://ffzy1.tv/api.php/provide/vod) | - |
+| ✅ | **暴风APP** (baofeng2) | normal | 10 | 72.7% | `✅✅✅✅✅✅✅` | 172776 | baofeng | [app.bfzyapi.com](https://app.bfzyapi.com/api.php/provide/vod) | - |
+| ✅ | **光速HTTP** (guangsu2) | normal | 10 | 86.4% | `✅✅✅❌✅❌✅` | 118596 | guangsu | [api.guangsuapi.com](http://api.guangsuapi.com/api.php/provide/vod) | - |
+| ✅ | **新浪HTTPS** (xinlang2) | normal | 10 | 81.8% | `✅✅✅✅✅✅✅` | 118628 | xinlang | [api.xinlangapi.com](https://api.xinlangapi.com/xinlangapi.php/provide/vod) | - |
+| ❌ | **360资源** (sanliuling) | normal | 101 | 95.5% | `✅✅✅✅✅✅❌` | - | - | [360zy.com](https://360zy.com/api.php/provide/vod) | 超时/宕机 |
+| ❌ | **魔都影视** (moduzy) | normal | 101 | 95.5% | `✅✅✅✅✅✅❌` | - | - | [www.moduzy.com](https://www.moduzy.com/api.php/provide/vod) | 超时/宕机 |
+| ❌ | **爱奇艺** (iqiyi) | normal | 101 | 90.9% | `✅✅✅✅✅✅❌` | - | - | [iqiyizyapi.com](https://iqiyizyapi.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **奶香香** (naixiang) | premium | 113 | 40.9% | `❌❌❌❌❌❌❌` | 183747 | - | [Naixxzy.com](https://Naixxzy.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **卧龙资源** (wolong) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [wolongzyw.com](https://wolongzyw.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **百度云资源** (baiduyun) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [api.apibdzy.com](https://api.apibdzy.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **天涯资源** (tianya) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 75623 | - | [tyyszy.com](https://tyyszy.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **旺旺资源** (wangwang) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [wwzy.tv](https://wwzy.tv/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **爱蛋资源** (aidan) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [lovedan.net](https://lovedan.net/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **卧龙采集** (wolong2) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [collect.wolongzyw.com](https://collect.wolongzyw.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **天涯海角** (tianyazy) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 75623 | - | [tyyszyapi.com](https://tyyszyapi.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **丫丫点播** (yaya) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 124047 | - | [cj.yayazy.net](https://cj.yayazy.net/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **卧龙CC** (wolongcc) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [collect.wolongzy.cc](https://collect.wolongzy.cc/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **旺旺API** (wangwangapi) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [api.wwzy.tv](https://api.wwzy.tv/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **樱花资源** (yinghua) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 105574 | - | [m3u8.apiyhzy.com](https://m3u8.apiyhzy.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **步步高资源** (bubugao) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 304321 | - | [api.yparse.com](https://api.yparse.com/api/json) | 搜索无结果 |
+| 🚨 | **牛牛点播** (niuniu) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 126002 | - | [api.niuniuzy.me](https://api.niuniuzy.me/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **索尼资源** (suoni) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 149241 | - | [suoniapi.com](https://suoniapi.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **茅台资源** (maotai) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 152921 | - | [caiji.maotaizy.cc](https://caiji.maotaizy.cc/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **豆瓣资源** (dbzy) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [dbzy.tv](https://dbzy.tv/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **閃電资源** (shandian) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 125791 | - | [sdzyapi.com](https://sdzyapi.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **飘零资源** (piaoling) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [p2100.net](https://p2100.net/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **索尼-闪电** (suonisd) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | 125791 | - | [xsd.sdzyapi.com](https://xsd.sdzyapi.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **CK** (ck) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | 7677 | - | [www.ckzy1.com](https://www.ckzy1.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **美少女资源站** (msnii) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | 25800 | - | [www.msnii.com](https://www.msnii.com/api/json.php) | 搜索无结果 |
+| 🚨 | **淫水机资源站** (xrbsp) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | 24513 | - | [www.xrbsp.com](https://www.xrbsp.com/api/json.php) | 搜索无结果 |
+| 🚨 | **白嫖资源站** (kxgav) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | 24507 | - | [www.kxgav.com](https://www.kxgav.com/api/json.php) | 搜索无结果 |
+| 🚨 | **百万资源** (baiwan) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [api.bwzyz.com](https://api.bwzyz.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **奥斯卡资源** (aosika) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | 220224 | - | [aosikazy.com](https://aosikazy.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **细胞采集** (xibao) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [www.xxibaozyw.com](https://www.xxibaozyw.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **豆瓣资源** (dbzy2) | normal | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [caiji.dbzy5.com](https://caiji.dbzy5.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **91-精品** (91jp) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [91jpzyw.com](https://91jpzyw.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **AIvin** (alvin) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [lbapiby.com](http://lbapiby.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **优优资源** (youyou) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [www.yyzywcj.com](https://www.yyzywcj.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **大奶子** (danaizi) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | 144932 | - | [apidanaizi.com](https://apidanaizi.com/api.php/provide/vod) | 搜索无结果 |
+| 🚨 | **幸资源** (xing) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | - | - | [xzybb2.com](https://xzybb2.com/api.php/provide/vod) | 超时/宕机 |
+| 🚨 | **色猫资源** (semao) | premium | 122 | 0.0% | `❌❌❌❌❌❌❌` | 0 | - | [caiji.semaozy.net](https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod) | 库为空 |
 
 ### 🪞 同库镜像组 (total 相同, 大概率同一后端)
 
 订阅文件 (full.json / lite.json) 中每组只保留最优一条线路, 备用域名见该线路的 `mirrorUrls` 字段。
 - youku / uku88
 - hsck / hsck2
-- modu / moduzy / modudongman
+- modu / modudongman
 - feifan / feifanapi / feifancj / feifancj2 / feifan1
 - hongniu / hongniu3
+- jiangyu / jinying
+- guangsu / guangsu2
 - xinlang / xinlang2
 - wujin / wujin2 / wujincc / wujinnet
+- zuida / zuidame
 - lezi / lezi2 / liangzi
 - baofeng / baofeng2
 - lsb / yutu / yutu2
