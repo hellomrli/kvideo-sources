@@ -8758,7 +8758,7 @@
       },
       {
         "api": "https://jszyapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://tyyszy.com/api.php/provide/vod",
@@ -8794,7 +8794,7 @@
       },
       {
         "api": "https://api.guangsuapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://ikunzyapi.com/api.php/provide/vod",
@@ -8806,7 +8806,7 @@
       },
       {
         "api": "https://www.huyaapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod",
@@ -8822,7 +8822,7 @@
       },
       {
         "api": "https://jyzyapi.com/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://lovedan.net/api.php/provide/vod",
@@ -8866,7 +8866,7 @@
       },
       {
         "api": "http://api.guangsuapi.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
@@ -8938,7 +8938,7 @@
       },
       {
         "api": "https://jinyingzy.com/api.php/provide/vod",
-        "ok": false
+        "ok": true
       },
       {
         "api": "https://sdzyapi.com/api.php/provide/vod",
