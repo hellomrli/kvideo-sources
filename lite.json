@@ -175,7 +175,13 @@
     "baseUrl": "https://api.zuidapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 5,
+    "mirrors": [
+      "zuidame"
+    ],
+    "mirrorUrls": [
+      "http://zuidazy.me/api.php/provide/vod"
+    ]
   },
   {
     "id": "baofeng",
@@ -212,14 +218,6 @@
     "mirrorUrls": [
       "https://jinyingzy.com/api.php/provide/vod"
     ]
-  },
-  {
-    "id": "zuidame",
-    "name": "最大点播",
-    "baseUrl": "http://zuidazy.me/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 5
   },
   {
     "id": "iqiyi",
