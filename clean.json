@@ -333,13 +333,7 @@
     "baseUrl": "https://api.zuidapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5,
-    "mirrors": [
-      "zuidame"
-    ],
-    "mirrorUrls": [
-      "http://zuidazy.me/api.php/provide/vod"
-    ]
+    "priority": 5
   },
   {
     "id": "baofeng",
@@ -369,13 +363,23 @@
     "baseUrl": "https://jyzyapi.com/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5,
-    "mirrors": [
-      "jinying"
-    ],
-    "mirrorUrls": [
-      "https://jinyingzy.com/api.php/provide/vod"
-    ]
+    "priority": 5
+  },
+  {
+    "id": "zuidame",
+    "name": "最大点播",
+    "baseUrl": "http://zuidazy.me/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "jinying",
+    "name": "金鹰点播",
+    "baseUrl": "https://jinyingzy.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
   },
   {
     "id": "hsck",
